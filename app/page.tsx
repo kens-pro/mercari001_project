@@ -54,10 +54,12 @@ export default function MercariManual() {
                   50代も小学生もわかる！誰でも簡単に始められるメルカリ出品の手順
                 </p>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
-                  <Button size="lg" className="bg-rose-500 hover:bg-rose-600">
+                <a href="https://www.mercari.com/jp/" target="_blank" rel="noopener noreferrer">
+                <Button size="lg" className="bg-rose-500 hover:bg-rose-600">
                     今すぐ始める
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
+                  </a>
                   <a href="/mercari_manual.pdf" download>
                   <Button size="lg" variant="outline">
                     マニュアルをダウンロード
@@ -369,10 +371,12 @@ export default function MercariManual() {
                   <Download className="ml-2 h-4 w-4" />
                 </Button>
                 </a>
+                <a href="https://www.mercari.com/jp/" target="_blank" rel="noopener noreferrer">
                 <Button size="lg" className="bg-white text-rose-500 hover:bg-rose-100">
                   メルカリを始める
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
+                </a>
               </div>
             </div>
           </div>
