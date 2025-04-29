@@ -76,13 +76,12 @@ export default function MercariManual() {
                 </div>
               </div>
               <div className="flex items-center justify-center">
-                <Image
-                  src="/placeholder.svg?height=400&width=400"
-                  alt="メルカリ出品マニュアル"
-                  width={400}
-                  height={400}
-                  className="rounded-lg shadow-xl"
-                />
+              <img
+    src="/ChatGPTImage429001.png"
+    alt="メルカリ出品マニュアル"
+    width="400"
+    height="400"
+  />
               </div>
             </div>
           </div>
