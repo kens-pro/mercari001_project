@@ -29,7 +29,7 @@ export default function MercariManual() {
               よくある質問
             </Link>
           </nav>
-          <a href="/mercari_manual.pdf" download>
+          <a href="/mercari_manual.pdf" download id="download-manual">
           <Button className="bg-rose-500 hover:bg-rose-600">
             無料ダウンロード
             <Download className="ml-2 h-4 w-4" />
@@ -60,7 +60,7 @@ export default function MercariManual() {
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
                   </a>
-                  <a href="/mercari_manual.pdf" download>
+                  <a href="/mercari_manual.pdf" download id="download-manual">
                   <Button size="lg" variant="outline">
                     マニュアルをダウンロード
                   </Button>
@@ -236,7 +236,7 @@ export default function MercariManual() {
               ))}
             </div>
             <div className="flex justify-center mt-12">
-              <a href="/mercari_manual.pdf" download>
+              <a href="/mercari_manual.pdf" download id="download-manual">
               <Button size="lg" className="bg-rose-500 hover:bg-rose-600">
                 詳しいマニュアルを見る
                 <ArrowRight className="ml-2 h-4 w-4" />
@@ -365,7 +365,7 @@ export default function MercariManual() {
                 </p>
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
-              <a href="/mercari_manual.pdf" download>
+              <a href="/mercari_manual.pdf" download id="download-manual">
               <Button size="lg" variant="secondary">
                   マニュアルをダウンロード
                   <Download className="ml-2 h-4 w-4" />
