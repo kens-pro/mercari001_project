@@ -1,10 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  distDir: 'docs',        // ← 追加ここ！
+  distDir: 'docs',        // ←これを追加
   assetPrefix: './',
 }
 
 export default nextConfig
+
 
 
