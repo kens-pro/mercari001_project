@@ -1,11 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  distDir: 'docs',        // ←これを追加
-  assetPrefix: './',
+  basePath: '/mercari001_project',
+  assetPrefix: '/mercari001_project',
 }
 
 export default nextConfig
+
 
 
 
